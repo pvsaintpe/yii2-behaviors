@@ -1,0 +1,31 @@
+{
+  "name": "pvsaintpe/yii2-behaviors",
+  "description": "Package",
+  "keywords": [
+    "yii2",
+    "active record"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pavel Veselov",
+      "email": "pvsaintpe@icloud.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "yiisoft/yii2": "2.0.15.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "pvsaintpe\\behaviors\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
