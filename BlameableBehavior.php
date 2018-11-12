@@ -2,7 +2,7 @@
 
 namespace pvsaintpe\behaviors;
 
-use pvsaintpe\log\components\ActiveRecord;
+use pvsaintpe\search\components\ActiveRecord;
 use yii\behaviors\BlameableBehavior as BaseBlameableBehavior;
 
 /**
