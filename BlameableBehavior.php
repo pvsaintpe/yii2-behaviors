@@ -21,7 +21,8 @@ class BlameableBehavior extends BaseBlameableBehavior
     public function events()
     {
         if ($this->owner->hasAttribute($this->updatedByAttribute)) {
-            $this->attributes[ActiveRecord::EVENT_INIT] = $this->updatedByAttribute;
+            $this->attributes[ActiveRecord::EVENT_BEFORE_INSERT] = $this->updatedByAttribute;
+            $this->attributes[ActiveRecord::EVENT_BEFORE_UPDATE] = $this->updatedByAttribute;
         }
         if ($this->owner->hasAttribute($this->createdByAttribute)) {
             $this->attributes[ActiveRecord::EVENT_BEFORE_INSERT] = $this->createdByAttribute;
