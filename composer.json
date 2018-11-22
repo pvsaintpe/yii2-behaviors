@@ -9,14 +9,14 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Pavel Veselov",
+     "name": "Pavel Veselov",
       "email": "pvsaintpe@icloud.com"
     }
   ],
   "require": {
     "php": ">=7.0.0",
     "yiisoft/yii2": "2.0.15.1",
-    "pvsaintpe/yii2-search": "2.*"
+    "pvsaintpe/yii2-search": "3.*"
   },
   "autoload": {
     "psr-4": {
