@@ -16,7 +16,7 @@
   "require": {
     "php": ">=7.0.0",
     "yiisoft/yii2": "2.*",
-    "pvsaintpe/yii2-search": "*"
+    "pvsaintpe/yii2-search": "4.*"
   },
   "autoload": {
     "psr-4": {
