@@ -7,7 +7,7 @@ use yii\behaviors\BlameableBehavior as BaseBlameableBehavior;
 
 /**
  * Class BlameableBehavior
- * @package common\behaviors
+ * @package pvsaintpe\behaviors
  */
 class BlameableBehavior extends BaseBlameableBehavior
 {
